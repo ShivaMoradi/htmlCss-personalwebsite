@@ -1,0 +1,52 @@
+/* Gemensamma stilar för både mobil- och desktopläge */
+
+/* Mobilvy */
+@media screen and (max-width: 767px) {
+  body{
+        background-image: url('C:\Users\Admin\Downloads\back-img.jpg');
+  }
+  /* Stilar för stående mobilläge */
+  /* Anpassa elementens utseende för mindre skärmar */
+}
+
+/* Desktopvy */
+@media screen and (min-width: 768px) {
+  body{
+        /*background-image: url('C:\Users\Admin\Downloads\back-img.jpg');*/
+        padding-left: 5%;
+          padding: right 5%;;
+          padding-top: 3%;
+          font-family:
+            Georgia, "Times New Roman",
+            Times, serif;
+          background-color: rgb(88, 107, 101);
+  }
+  
+
+  /* Stilar för liggande desktopläge */
+  /* Anpassa elementens utseende för större skärmar */
+}
+
+.topmenu {
+  background-color: #333;
+  overflow: hidden;
+}
+.topmenu a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.topmenu a:hover {
+  background-color: #ddd;
+  color: rgb(184, 33, 33);
+}
+.Logo{
+border-image: round;
+
+
+}
+
+
